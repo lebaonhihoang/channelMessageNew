@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChannelMessaging</string>
+    <string name="id">identity</string>
+    <string name="password">password</string>
+    <string name="validate">validate</string>
+
+
+</resources>

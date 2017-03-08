@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="1"><![CDATA[
+    tools:context="com.example.hoangleb.channelmessaging.LoginActivity">
+
+
+    ]]>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="identity :" />
+
+        <EditText
+            android:id="@+id/userNameTextField"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/id"
+            android:layout_weight="0.72" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="79dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:text="password :" />
+
+        <EditText
+            android:id="@+id/passwordTextField"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:layout_weight="8.41" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/validate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/validate" />
+
+
+
+
+
+</LinearLayout>
+
